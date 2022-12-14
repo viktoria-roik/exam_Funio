@@ -1,0 +1,44 @@
+.style {
+    &__container {
+        text-align: center;
+        padding-top: 40px;
+        margin-bottom: 40px;
+    }
+    &__title {
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+}
+.item {
+    cursor: pointer;
+    padding: 30px 30px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2vw;
+   
+    &__block {
+        padding-bottom: 30px;
+        position: relative;
+    }
+    &__name {
+        font-size: 25px;
+        color: $white;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 10px;
+        padding: 216px 30px 55px;
+        background: linear-gradient(0deg,rgba(1,1,1,.5) 0%,rgba(255,255,255,0) 100%);
+    }
+    &__img {
+        overflow: hidden;
+    }
+    &__img img {
+        transition: transform 0.25s;
+    }
+    &__img:hover img {
+        transform: scale(1.1);
+    }
+}

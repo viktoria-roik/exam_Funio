@@ -1,0 +1,71 @@
+html {
+  @include getCssVar(font-size);
+}
+
+body {
+  @include getCssVar(font-family);
+  font-size: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 2500px;
+  margin: auto;
+  padding: 0 12px;
+}
+.title {
+  font-family: 'Josefin Sans';
+  margin: 0;
+}
+.btn {
+  text-transform: uppercase;
+  font-family: 'Quicksand';
+  font-weight: 600;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0.055em;
+  padding: 15px 20px;
+  color: $white;
+  background: $black;
+  margin-bottom: 30px;
+  border: 1px solid $black;
+  transition: .2s ease-in;
+  &:hover {
+      background: $white;
+      color: $black;
+      border: 1px solid $black;
+  
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+#backtotop {
+    background-color: $black;
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    position: fixed;
+    bottom: 50px;
+    right: 15px;
+    z-index: 9;
+    // -webkit-animation: bounce-in-top 1.1s both;
+    animation: bounce-in-top 1.1s both;
+    &:hover {
+      background: $white;
+      color: $black;
+      border: 1px solid $black;
+  
+  }
+
+}
+// .slick-next, .slick-arrow {
+//   display: block;
+// }

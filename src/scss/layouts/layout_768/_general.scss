@@ -1,0 +1,41 @@
+// html {
+//     @include getCssVar(font-size);
+//   }
+  
+//   body {
+//     @include getCssVar(font-family);
+//     font-size: 1rem;
+//   }
+  
+//   img {
+//     max-width: 100%;
+//   }
+//   .container {
+//     // max-width: 1900px;
+//     // margin: auto;
+//     // padding: 0 0 0 0;
+    
+//   }
+//   .title {
+//     font-family: 'Nunito';
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 60px;
+//     line-height: 82px;
+//     letter-spacing: -0.025em;
+//     text-align: center;
+//     color: #333333;
+//   }
+//   .text {
+//     font-family: 'Quicksand';
+//     font-weight: 400;
+//     font-size: 18px;
+//     line-height: 17px;
+//     letter-spacing: -0.025em;
+//     color: $black;
+//     padding: 0 106px;
+  
+//   }
+.container {
+    margin: auto;
+}

@@ -1,0 +1,79 @@
+.prod {
+    &__container {
+        padding-bottom: 40px;
+    }
+    
+    &__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 400;
+        padding-bottom: 30px;
+
+    }
+    &__things {
+        // display: grid;
+        // grid-template-rows: 1fr;
+        
+
+    }
+    &__block {
+        padding-left: 30px;
+       cursor: pointer;
+
+    }
+    &__img {
+        width: 214px;
+        overflow: hidden;
+    }
+    &__img img {
+        transition: transform 0.25s;
+    }
+    &__img:hover img {
+        transform: scale(1.1);
+    }
+    &__name {
+        font-size: 14px;
+        color: $gray;
+        font-weight: 400;
+    }
+    &__about {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    &__review {
+        font-size: 12px;
+        color: $gray;
+        font-weight: 400;
+        padding-bottom: 12px;
+    }
+    &__price {
+        font-size: 17px;
+    }
+
+}
+.rating {
+    margin-bottom: 11px;
+    overflow: hidden;
+}
+.rating a {
+    text-decoration: none;
+			float:right;
+			color: $gray;
+		}
+.rating a:focus,
+.rating a:focus ~ a	{
+	color: orange;
+	cursor: pointer;
+		}
+.rating {
+	direction: rtl;
+		}
+.rating a {
+	float: none;
+		}

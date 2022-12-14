@@ -1,0 +1,30 @@
+.hero {
+    &__title {
+        font-size: 30px;
+        font-weight: 400;
+        width: 400px;
+        padding-left: 100px;
+    }
+    &__btn {
+        font-size: 15px;
+        font-weight: 400;
+        margin-left: 150px;
+        top: 60%;
+        // padding-left: 130px;
+    }
+
+    &__subtitle {
+        display: block;
+        text-transform: uppercase;
+        color: $white;
+        position: absolute;
+        font-size: 14px;
+        font-weight: 500;
+        width: 300px;
+        margin-left: 100px;
+        top: 30%;
+        text-align: center;
+    }
+}
+
+

@@ -1,0 +1,32 @@
+.prod {
+    &__container {
+ 
+    }
+    
+    &__title {
+        font-size: 35px;
+    }
+   
+    &__block {
+        // width: 200px;
+        // padding-left: 100px;
+        // width: 150px;
+    }
+    &__img {
+    }
+    &__name {
+      
+    }
+    &__about {
+   
+    }
+    &__review {
+   
+    }
+    &__price {
+      
+    }
+    &__things {
+        max-width: 1000px;
+    }
+}

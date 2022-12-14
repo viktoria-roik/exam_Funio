@@ -1,0 +1,16 @@
+.brand {
+    &__container {
+        padding: 90px;
+
+
+    }
+    &__slider {
+        max-width: 700px;
+        margin: auto;
+    }
+}
+.slider {
+    &__item {
+        width: 158px;
+    }
+}

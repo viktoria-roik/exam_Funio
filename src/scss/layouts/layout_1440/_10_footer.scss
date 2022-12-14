@@ -1,0 +1,27 @@
+.footer {
+    &__container {
+        // text-align: center;
+      
+    }
+    &__social--svg {
+   
+    }
+    
+    &__menu {
+ 
+    }
+   
+}
+.menu {
+   
+    &__list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: left;
+    
+    }
+    &__item {
+    
+    }
+   
+
+}

@@ -1,0 +1,40 @@
+//fonts
+$google-font: "https://fonts.googleapis.com/css?family=Ubuntu:400,500";
+$prefix: prefix- !default;
+$baseFontSize: 16px;
+$baseFontFamily: 'Josefin Sans', sans-serif;
+$mediumFontWeight: 500;
+
+$mobilePadding: (12px / $baseFontSize) * 1rem;
+$desktopPadding: 1rem;
+
+// Paths
+
+// $imagesPath: "../i/";
+$imagesPath: "../i/";
+
+$fontsPath: "../fonts/";
+$usersFilesPath: "../userfiles/";
+
+// Colors
+$brown: #7a6d67;
+$lightblue: #EEF3FA;
+$gray: #868686;
+$black: #000000;
+$white: #ffffff;
+$blue: #0d6efd !default;
+$indigo: #6610f2 !default;
+$purple: #7828E6 !default;
+$pink: #d63384 !default;
+$red: #dc3545 !default;
+$coral: #E63A28;
+
+$colors: (
+  "black": $black,
+  "white": $white,
+  "blue": $blue,
+  "indigo": $indigo,
+  "purple": $purple,
+  "pink": $pink,
+  "red": $red,
+) !default;

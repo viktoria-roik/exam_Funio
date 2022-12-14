@@ -1,0 +1,43 @@
+.hero {
+    &__container {
+    text-align: center;
+       
+    }
+    &__slider {
+       width: 100%;
+       height: auto;
+       text-align: center;
+       margin: auto;
+
+
+    }
+    &__img {
+       
+     
+    }
+    &__subtitle {
+        font-size: 18px;
+        width: 500px;
+        margin-left: 150px;
+        top: 20%;
+
+
+    }
+  
+    &__title {
+        font-size: 80px;
+        width: 700px;
+        padding-left: 80px;
+        top: 30%;
+    }
+    &__btn {
+        font-size: 15px;
+        font-weight: 400;
+        margin-left: -450px;
+        top: 60%;
+        
+    }
+}
+.slide {
+   
+    }

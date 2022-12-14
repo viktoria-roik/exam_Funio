@@ -1,0 +1,35 @@
+.collection {
+   
+    &__container {
+    }
+    &__blocks {
+      
+    }
+    &__block {
+       
+    }
+    &__block-first {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    &__block-second {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+   &__text {
+    font-size: 16px;
+    margin-bottom: 15px;
+   }
+   &__title {
+    font-size: 50px;
+    margin-bottom: 25px;
+   }
+   &__link {
+
+   }
+}
+a {
+    font-size: 16px;
+    // padding-bottom: 50px;
+}

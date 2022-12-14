@@ -1,0 +1,12 @@
+.prod {
+    &__container {
+
+    }
+    &__things {
+        max-width: 690px;
+        margin: auto;
+    }
+    &__img {
+        width: 200px;
+    }
+}

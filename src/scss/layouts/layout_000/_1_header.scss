@@ -1,0 +1,93 @@
+.header {
+   
+    &__container {
+        background-color: $black;
+        padding: 25px 0 20px 25px;
+       
+    }
+}
+    .burg {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 30px;
+        &__menu--btn {
+            width: 30px;
+            height: 30px;
+            position: relative;
+            z-index: 2;
+            overflow: hidden;
+        }
+        &__menu--btn span {
+            width: 30px;
+            height: 2px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: $white;
+            transition: all 0.5s;
+        }
+        &__menu--btn span:nth-of-type(2) {
+            top: calc(50% - 5px);
+        }
+        
+        &__menu--btn span:nth-of-type(3) {
+            top: calc(50% + 5px);
+        }
+        &__menu--btn.active span:nth-of-type(1) {
+            display: none;
+        }
+         &__menu--btn.active span:nth-of-type(2) {
+            top: 50%;
+            transform: translate(-50%, 0%) rotate(45deg);
+        }
+        &__menu--btn.active span:nth-of-type(3) {
+            top: 50%;
+            transform: translate(-50%, 0%) rotate(-45deg);
+        }
+        
+       
+        &__menu {
+            position: fixed;
+            z-index: 3;
+            top: 0;
+            left: 0;
+            width: 75%;
+            height: 100%;
+           
+            background: $white;
+            transform: translateX(-100%);
+            transition: transform 0.5s;
+        }
+        &__menu.active {
+            transform: translateX(0);
+        }
+        &__menu ul {
+            padding-top: 30px;
+
+        }
+        &__menu li {
+            list-style-type: none;
+            text-decoration: none;
+            color: $black;
+            font-size: 14px;
+            padding: 15px 0;
+            border-bottom: 1px solid rgb(198, 198, 198);
+            cursor: pointer;
+        }
+        &__menu a {
+            text-decoration: none;
+            color: $black;
+            font-size: 22px;
+            
+        }
+
+        &__logo {
+            background-color: $black;
+            height: 75px;
+            padding: 25px 0 20px 25px;
+        }
+
+
+    }
+

@@ -1,0 +1,14 @@
+.brand {
+    &__container {
+        
+            max-width: 1200px;
+            margin: auto;
+            padding-bottom: 60px;
+          }
+          .slider__img {
+            cursor: pointer;
+            width: 100%;
+            max-width: 100%;
+            vertical-align: top;
+          }
+    } 

@@ -1,0 +1,17 @@
+.shop {
+    &__container {
+
+    }
+    &__title {
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+    &__block {
+        margin-bottom: 50px;
+        max-width: 751px;
+    }
+    &__blocks {
+        max-width: 751px;
+        margin: auto;
+    }
+}

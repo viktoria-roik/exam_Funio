@@ -1,0 +1,22 @@
+.brand {
+    &__container {
+      padding: 40px 0;
+      border-top: 1px solid #e7e7e7;
+       
+          
+          }
+          &__slider {
+            max-width: 1440px;
+            margin: 0;
+          }
+          .slider__img {
+            width: 100%;
+            max-width: 100%;
+            vertical-align: top;
+          }
+    } 
+    .slider {
+      &__item {
+          width: 220px;
+      }
+  }

@@ -1,0 +1,52 @@
+.shop {
+    &__container {
+        background-color: #27262c;
+        padding: 80px 0 220px 0;
+        text-align: center;
+        }
+    &__title {
+        color: $white;
+        font-size: 20px;
+        font-weight: 500;
+        padding-bottom: 05px;
+    }
+    &__block {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-bottom: 40px;
+    }
+    &__img {
+        padding: 10px 30px;
+        }
+
+    &__content {
+        background-color: $white;
+        padding: 10px 10px 40px 10px;
+        margin: 0 50px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -50px;
+    }
+    &__subtitle {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+    &__blocks {
+        text-align: center;
+    }
+  
+
+}
+.link {
+    &__btn {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: $black;
+        padding: 12px 25px;
+        border: 1px solid $black;
+
+    }
+}
